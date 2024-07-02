@@ -10,5 +10,5 @@ def predict_intention(text):
     return model.predict(text_vec)[0]
 
 # Ejemplo de uso
-print(predict_intention("Quiero hacer cosas"))
-print(predict_intention("Gracias"))
+print("Quiero informacion ->",predict_intention("Quiero hacer cosas"))
+print("Gracias ->",predict_intention("Gracias"))
